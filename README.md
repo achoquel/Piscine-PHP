@@ -7,7 +7,7 @@
 | Day01 | 87% |https://cdn.intra.42.fr/pdf/pdf/35/d01.fr.pdf
 | Day02 | 60% |https://cdn.intra.42.fr/pdf/pdf/36/d02.fr.pdf
 | Day03 | 100% |https://projects.intra.42.fr/uploads/document/document/419/d03.fr.pdf
-| Day04 | ---% |https://cdn.intra.42.fr/pdf/pdf/38/d04.fr.pdf
+| Day04 | 60% |https://cdn.intra.42.fr/pdf/pdf/38/d04.fr.pdf
 | Rush00 |116% |https://cdn.intra.42.fr/pdf/pdf/47/rush00.fr.pdf
 | Day05 | 80% |https://cdn.intra.42.fr/pdf/pdf/42/d05.fr.pdf|
 | Day06 | ---% |https://cdn.intra.42.fr/pdf/pdf/43/d06.fr.pdf
