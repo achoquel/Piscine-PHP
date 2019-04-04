@@ -3,7 +3,7 @@
 
 | Days | Final Mark | Subject
 | ----- | ---- | ---------------------|
-| Day00 | ---% |https://cdn.intra.42.fr/pdf/pdf/34/d00.fr.pdf|
+| Day00 | 90% |https://cdn.intra.42.fr/pdf/pdf/34/d00.fr.pdf|
 | Day01 | ---% |https://cdn.intra.42.fr/pdf/pdf/35/d01.fr.pdf
 | Day02 | ---% |https://cdn.intra.42.fr/pdf/pdf/36/d02.fr.pdf
 | Day03 | ---% |https://projects.intra.42.fr/uploads/document/document/419/d03.fr.pdf
