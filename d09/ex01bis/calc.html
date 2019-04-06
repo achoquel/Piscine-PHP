@@ -1,0 +1,126 @@
+<html>
+<html>
+  <head>
+    <meta http-equiv="content-type"
+content="text/html;charset=utf-8" />
+    <title>Nice calculatrice 👌</title>
+    <style>
+      .navbar {
+  background-color: #333;
+  font-family: 'Verdana';
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align:center;
+  z-index:1;
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+      .calculatrice{
+          text-align: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: auto;
+  padding: 20px;
+      }
+      input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 25%;
+  background-image: linear-gradient(to right top, #6bd16d, #65d767, #5fdd61, #57e35a, #4fe953, #4ded52, #4cf050, #4af44f, #50f654, #55f859, #5af95d, #5ffb62);
+  color: white;
+  padding: 10px 10px;
+  margin: 15px 0;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      👌 Yet Another Shitty Calculatrice 👌 (but this time in jQuery)
+    </div>
+    <div class="calculatrice">
+      <input type="text" name="left" id="left" placeholder="...." value="" /> <br>
+      <select id="operator" name="operator">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mult">*</option>
+        <option value="div">/</option>
+        <option value="mod">%</option>
+      </select> <br>
+      <input type="text" name="right" id="right" placeholder="...." value=""> <br>
+      <input type="submit" name="submit" id="submit" value="Try Me !">
+    </div>
+    <script>
+      setInterval('alert("Please, use me...")', 30000);
+      $( "#submit" ).click(function() {
+        if ($("#left").val() < '0' || $("#right").val() < '0' || isNaN($("#left").val()) || isNaN($("#right").val()))
+          alert("Error :(");
+        else
+        {
+          if ($("#operator").val() == "add")
+          {
+            var res = parseInt($("#left").val()) + parseInt($("#right").val());
+            alert(res);
+            console.log(res);
+          }
+          else if ($("#operator").val() == "sub")
+          {
+            var res = parseInt($("#left").val()) - parseInt($("#right").val());
+            alert(res);
+            console.log(res);
+          }
+          else if ($("#operator").val() == "mult")
+          {
+            var res = parseInt($("#left").val()) * parseInt($("#right").val());
+            alert(res);
+            console.log(res);
+          }
+          else if ($("#operator").val() == "div")
+          {
+            if ($("#right").val() == '0')
+            {
+              alert("It’s over 9000!");
+              console.log("It’s over 9000!");
+            }
+            else
+            {
+              var res = parseInt($("#left").val()) / parseInt($("#right").val());
+              alert(res);
+              console.log(res);
+            }
+          }
+          else if ($("#operator").val() == "mod")
+          {
+            if ($("#right").val() == '0')
+            {
+              alert("It’s over 9000!");
+              console.log("It’s over 9000!");
+            }
+            else
+            {
+              var res = parseInt($("#left").val()) % parseInt($("#right").val());
+              alert(res);
+              console.log(res);
+          }
+        }
+      }
+      });
+    </script>
+  </body>
+</html>
