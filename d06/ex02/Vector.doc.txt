@@ -1,0 +1,54 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class handles Vector creation.
+
+An instance can be constructed from a table constituted of dest Vertex
+and orig Vertex (optional);
+
+y axis
+^
+|       ->
+|       AB
+|  A x---------> B
+|
+0--------------------> x axis
+z axis
+
+dest is an instance of Vertex class and defines the B point of the vector.
+orig is an instance of Vertex class and defines the A point of the vector.
+
+If not specified, orig value is by default x=0, y=0, z=0, w=1.
+If not specified, color value is by default white.
+
+The class provides the following methods :
+
+float   magnitude( );
+Returns the magnitude of the instance's vector.
+
+Vector  normalize( );
+Returns the normal vector of the instance's vector.
+
+Vector  add( Vector $rhs );
+Returns the sum vector of instance's vector and $rhs vector.
+
+Vector  sub( Vector $rhs );
+Returns the difference vector of instance's vector and $rhs vector.
+
+Vector  opposite( );
+Returns the opposite vector of instance's vector.
+
+Vector  scalarProduct( float $k );
+Returns the vector resulting of the scalar product between instance's vector and
+$k.
+
+Vector  dotProduct( Vector $rhs );
+Returns the vector resulting of the scalar product between instance's vector and
+$rhs vector.
+
+float   cos( Vector $rhs );
+Returns the cosine of the angle formed by instance's vector and $rhs vector.
+
+Vector  crossProduct( Vector $rhs );
+Returns the vector resulting of the vectorial product between instance's vector
+and $rhs vector.
+
+---------------------------------------------------------------------- Vector ->

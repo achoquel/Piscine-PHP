@@ -1,0 +1,12 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles VERTEX creation.
+
+An instance can be constructed from an array constituted of x,y,z & w (optional)
+and Color (optional) values for the returned Vertex;
+
+If not specified, w value is by default 1.0.
+If not specified, color value is by default white.
+
+color value is an instance constructed from Color class.
+
+---------------------------------------------------------------------- Vertex ->

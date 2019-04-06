@@ -1,0 +1,213 @@
+.body {background-color: #505050;}
+
+.content {
+  max-width: 1420px;
+  min-width: 700px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.left{
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  top: -155;
+  width: 140px;
+  height: 425px;
+  background-color: #909090;
+}
+
+.center{
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 1020px;
+  height: 580px;
+  background-color: #909090;
+}
+
+.center img {
+  position: absolute;
+  margin: 10px;
+  width: 1000px;
+  height: 562px;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 32px;
+  margin-right: 38px;
+  width: 70px;
+  height: auto;
+}
+
+.hand {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 32px;
+  margin-right: 38px;
+  width: 70px;
+  height: auto;
+}
+
+.eye {
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 32px;
+  margin-right: 38px;
+  width: 70px;
+  height: auto;
+  background-color: inherit;
+  border: 5px solid red;
+  border-radius: 5px;
+}
+
+.tools {
+  position: absolute;
+  margin-top: 257px;
+  margin-left: 38px;
+  width: 70px;
+  height: auto;
+}
+
+.chat {
+  position: absolute;
+  margin-top: 337px;
+  margin-left: 38px;
+  width: 70px;
+  height: auto;
+}
+
+.right{
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  top: -155;
+  width: 140px;
+  height: 425px;
+  background-color: #909090;
+}
+
+.book {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 38px;
+  width: 70px;
+  height: auto;
+}
+
+.towel {
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 38px;
+  width: 70px;
+  height: auto;
+}
+
+.wall {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 10px;
+  width: 120px;
+  height: 70px;
+  background: repeat url(resources/brick.jpg);
+}
+
+.greenbox {
+  position: relative;
+  top: -80;
+  left: -45;
+  width: 520px;
+  height: 170px;
+  background-color: #84FF91;
+}
+
+.greenbox p {
+  position: absolute;
+  font-size: 15px;
+  font-family: verdana;
+  margin-top: 7;
+  margin-left: 10;
+}
+
+.txtshadow {
+  text-shadow: 6px 5px 5px #e84c1f;
+}
+
+.txtbold {
+  font-family: "Times New Roman", serif;
+  font-size: 34px;
+}
+
+.border {border-radius: 10px;}
+
+.shadow {box-shadow: 10px 10px 10px black;}
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 110px
+}
+
+.loupe {
+  position: absolute;
+  right: 30;
+  bottom: -20;
+}
+
+.reload {
+  position:absolute;
+  right: 10;
+  top: 10;
+  width: auto;
+  height: 15%;
+}
+
+.close {
+  position:absolute;
+  right: 10;
+  bottom: 10;
+  width: auto;
+  height: 15%;
+}
+
+textarea {
+  position: absolute;
+  resize:none;
+  margin-top: 85;
+  margin-left: 10;
+  border: inset 2px lightgrey;
+}
+
+button {
+  position: absolute;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	border:1px solid #grey;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:1px 10px;
+	text-decoration:none;
+  margin-top: 85;
+  margin-left: 370;
+}
+
+header {
+  position: relative;
+  max-width: 1420px;
+  height: 137px;
+  background-color: #909090;
+}

@@ -1,0 +1,31 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles MATRIX creation.
+
+An instance can be constructed from an array constituted of:
+
+preset: type of matrix that we want, can either be:
+  - IDENTITY
+  - SCALE
+  - RX (for Rotation along the OX axis)
+  - RY (for Rotation along the OY axis)
+  - RZ (for Rotation along the OZ axis)
+  - TRANSLATION
+  - PROJECTION
+
+scale: scale factor (mandatory for SCALE matrix)
+angle: rotation angle (mandatory for RX,RY,RZ matrix)
+vtc: translation vector (mandatory for TRANSLATION matrix)
+fov: field of view (mandatory for PROJECTION matrix)
+ratio: projected image ratio (mandatory for PROJECTION matrix)
+near: near clipping plane (mandatory for PROJECTION matrix)
+far: far clipping plane (mandatory for PROJECTION matrix)
+
+The class provides the following methods :
+
+Matrix  mult( Matrix $rhs );
+Returns the result of the instance's matrix times the $rhs matrix.
+
+Vertex  transformVertex( Vertex $vtx );
+Returns the result of the transformation of $vtx vertex by instance's matrix.
+
+---------------------------------------------------------------------- Matrix ->

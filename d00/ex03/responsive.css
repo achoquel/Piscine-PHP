@@ -1,0 +1,25 @@
+table {table-layout:fixed; overflow:hidden;}
+td {border:1px solid black; border-collapse:collapse; width:2vw; height:9vh; table-layout:fixed; position:relative;}
+h1 {font-size: 1.5vw;}
+h2 {font-size: 1.2vw;}
+h4 {font-size: 0.8vw}
+.green {background-color:#2ECC71;}
+.red {background-color:#E74C3C;}
+.pink {background-color:#F5B7B1;}
+.blue {background-color:lightblue;}
+.yellow {background-color:lightyellow;}
+.grey {background-color:lightgrey;}
+.lightgrey {background-color:#F2F4F4;}
+.brown {background-color:#CC9966;}
+.beige {background-color:#F5CBA7;}
+.spe1 {background-color:#FF66FF;}
+.spe11 {background-color:#FF66FF; width:4vw;}
+.spe22 {background-color:#CC33CC; width:4vw;}
+.spe2 {background-color:#CC33CC;}
+.botleft {position:absolute; bottom:-1vw; left:0.1vw;}
+.topright {position:absolute; top:-1vw; right:0.1vw;}
+.cent {text-align:center;}
+.empty {border:none;}
+.empty1 {border:none; width:36vw;}
+.empty2 {border:none; width:24vw;}
+.body {background-image:url(https://i.imgur.com/yitgQKo.jpg);}
